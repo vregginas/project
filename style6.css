@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:ital@1&family=Rubik:ital,wght@1,300&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  text-align: center;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: auto;
+}
+.submit {
+  margin-top: 50px;
+  background-color: #ffffff;
+  width: 45vw;
+  height: 12vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.submit button,
+.submit a {
+  margin: 5vw;
+  width: 18vw;
+  height: 8vh;
+  border-radius: 60px;
+  border: none;
+}
+#continue {
+  background-color: #41b983;
+  color: #ffffff;
+}
+#back {
+  background-color: #f0f0f0;
+  text-decoration: none;
+  color: #4b5b7c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.form textarea:hover {
+  border: 1px solid #41b983;
+}
+#continue:hover {
+  -webkit-box-shadow: 5px 5px 14px -2px #c4dfd4;
+  box-shadow: 5px 5px 14px -2px #c4dfd4;
+  cursor: pointer;
+}
+#back:hover {
+  -webkit-box-shadow: 5px 5px 14px -2px #c4dfd4;
+  box-shadow: 5px 5px 14px -2px #c4dfd4;
+  cursor: pointer;
+}
+h1 {
+  color: #4b5b7c;
+  font-size: 30px;
+}
+h2 {
+  color: #4b5b7c;
+  font-size: 20px;
+}
+textarea {
+  width: 30vw;
+  height: 30vh;
+  margin: auto;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #bac0d7;
+  -webkit-box-shadow: 5px 5px 21px -15px #bac0d7;
+  box-shadow: 5px 5px 21px -15px #bac0d7;
+  padding: 5px;
+  outline: none;
+}
+textarea:hover {
+  border: 1px solid #41b983;
+}
+textarea:focus {
+  border: 1px solid #4b5b7c;
+  -webkit-box-shadow: 5px 5px 21px -15px #4b5b7c;
+  box-shadow: 5px 5px 21px -15px #4b5b7c;
+}
+label {
+  color: #bac0d7;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .submit {
+    width: 90vw;
+    margin-top: 5px;
+    display: flex;
+    transform: translate(-5%);
+  }
+  .submit button,
+  #back {
+    width: 35vw;
+  }
+  textarea {
+    width: 70vw;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-top: -5px;
+  }
+}

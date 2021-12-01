@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:ital@1&family=Rubik:ital,wght@1,300&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+img {
+  width: 30vw;
+  border-radius: 20px;
+}
+body {
+  text-align: center;
+  overflow: hidden;
+}
+.container {
+  background-color: #f0f0f0;
+  height: 101vh;
+  width: 101vw;
+  position: absolute;
+  top: -1vh;
+  left: -1vh;
+}
+.frame {
+  background-color: #ffffff;
+  width: 50vw;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 14px -5px #ececec;
+  box-shadow: 5px 5px 14px -5px #ececec;
+  text-align: center;
+}
+.container h1 {
+  color: #4b5b7c;
+  font-size: 25px;
+}
+.frame h2 {
+  color: #4b5b7c;
+  font-size: 20px;
+}
+.frame p {
+  color: #bac0d7;
+  font-size: 15px;
+}
+#cont {
+  background-color: #41b983;
+  color: #ffffff;
+  width: 18vw;
+  height: 8vh;
+  border-radius: 60px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#cont:hover {
+  -webkit-box-shadow: 5px 5px 14px -2px #c4dfd4;
+  box-shadow: 5px 5px 14px -2px #c4dfd4;
+  cursor: pointer;
+}
+
+p a {
+  color: #4b5b7c;
+}
+p a:hover {
+  color: #41b983;
+}
+@media (max-width: 800px) {
+  .frame {
+    width: 60vw;
+    height: 75vh;
+  }
+  img {
+    width: 50vw;
+  }
+  #cont {
+    width: 50vw;
+    margin-top: 20px;
+  }
+  .container h1 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}

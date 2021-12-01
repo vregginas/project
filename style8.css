@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:ital@1&family=Rubik:ital,wght@1,300&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+body {
+  text-align: center;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+img {
+  width: 40vw;
+  margin-top: -20px;
+}
+h1 {
+  color: #4b5b7c;
+  font-size: 30px;
+}
+h2 {
+  color: #4b5b7c;
+  font-size: 20px;
+}
+#cont {
+  background-color: #41b983;
+  color: #ffffff;
+  width: 18vw;
+  height: 8vh;
+  border-radius: 60px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#cont:hover {
+  -webkit-box-shadow: 5px 5px 14px -2px #c4dfd4;
+  box-shadow: 5px 5px 14px -2px #c4dfd4;
+  cursor: pointer;
+}
+
+p a {
+  color: #4b5b7c;
+}
+p a:hover {
+  color: #41b983;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  img {
+    width: 80vw;
+  }
+  #cont {
+    width: 70vw;
+    margin-top: 20px;
+  }
+}
